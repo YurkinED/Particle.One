@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  database:
+    image: mongo:latest
+    enviroment:
+      MONGO_INITDB_ROOT_USERNAME: yurkin
+      MONGO_INITDB_ROOT_PASSWORD: Zz123456
+    ports:
+      - 27017:27017
